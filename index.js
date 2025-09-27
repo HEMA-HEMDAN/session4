@@ -21,7 +21,7 @@ app.use("/products", productsRouter);
 app.use("/users", usersRouter);
 
 app.use((req, res) => {
-  res.status(404).json({ msg: "go away" });
+  res.status(404).json({ msg: "يلا ياد من هنا هات عنوان api عدل" });
 });
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
